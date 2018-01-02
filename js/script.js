@@ -105,6 +105,9 @@ function checkRoundWinner(playerPick, computerPick) {
               computer.score++;
              setGamePoints();
              
+          }else {
+            playerResultElem.innerHTML = "Tie";
+            computerResultElem.innerHTML = "Tie";
           }
 
           checkScore();
